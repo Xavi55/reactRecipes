@@ -2,7 +2,7 @@
   "name": "recipe-search",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://xavi55.github.io/reactRecipes",
+  "homepage":"https://xavi55.github.io/reactRecipes",
   "dependencies": {
     "bootstrap": "^4.1.1",
     "gh-pages": "^2.0.1",

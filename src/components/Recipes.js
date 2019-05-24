@@ -6,6 +6,8 @@ const Recipes = (props)=>
     <div className='container'>
         <div className='row'>
         {
+            props.recipes
+            ?
             props.recipes.map((recipe,i)=>
             {
             return(
@@ -35,6 +37,8 @@ const Recipes = (props)=>
                 </div>
             </div>);
             })
+            :
+            <h2 className='col-md-12' style={{textAlign:'center'}}>Search for food!</h2>
         }
         </div>
     </div>
