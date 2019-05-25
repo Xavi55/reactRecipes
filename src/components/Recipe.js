@@ -30,7 +30,7 @@ componentDidMount=()=>
             Source:<span><a href={recipe.publisher_url}>{recipe.publisher_url}</a></span>
             </p>
             <button className='recipe_buttons'>
-                <Link to='/'>&laquo; Go Back</Link>
+                <Link to=''>&laquo; Go Back</Link>
             </button>
         </div>
         :
